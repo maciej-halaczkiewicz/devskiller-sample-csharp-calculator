@@ -1,0 +1,9 @@
+{
+  "verification" : {
+    "testNamePatterns" : [".*VerifyTests.*"],
+    "pathPatterns" : ["CalculatorSample.Tests/VerifyTests.cs"],
+        "overwrite" : {
+    	  "CalculatorSample.Tests/CalculatorSample.VerifyTests.csproj" : "CalculatorSample.Tests/CalculatorSample.Tests.csproj"
+        }
+  }
+}
