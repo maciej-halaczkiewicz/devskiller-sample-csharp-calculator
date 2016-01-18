@@ -9,7 +9,9 @@ During the test, the candidate is allowed to edit the source code of the project
 Check out how the test looks from candidate's perspective: [Candidate campaign preview](https://www.youtube.com/watch?v=rB4fViXPh5E)
 
 
-This repo contains an example project for C#/.NET, below you can find a detailed guide for creating your own programming project. Please make sure to read our [Getting started with programming projects](https://docs.devskiller.com/programming_task/index.html) guides first 
+This repo contains an example project for C#/.NET, below you can find a detailed guide for creating your own programming project. 
+
+Please make sure to read our [Getting started with programming projects](https://docs.devskiller.com/programming_task/index.html) guides first 
 
 ## Technical details for C#/.NET support
 
@@ -85,7 +87,7 @@ which is incorrect from candidate's perspective, because there is no `VerifyTest
 
 There are two ways to handle this:
 
-### 1. Define `<Compile>` as a wildcard. 
+### Option 1. Define `<Compile>` as a wildcard. 
 
 You will just need to substitute above entry with the following entry:
 
@@ -97,7 +99,7 @@ You will just need to substitute above entry with the following entry:
 
 With such configuration build process will discover all `*.cs` files at runtime.
 
-### 2. Create an alternative `*.csproj` file that will overwrite the candidate's `*.csproj` file during verification phase. 
+### Option 2. Create an alternative `*.csproj` file that will overwrite the candidate's `*.csproj` file during verification phase. 
 
 To do so, we would need to perform three steps:
  
