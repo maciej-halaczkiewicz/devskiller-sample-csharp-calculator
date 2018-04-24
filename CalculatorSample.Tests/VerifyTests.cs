@@ -2,7 +2,7 @@ using System;
 using NUnit.Framework;
 using CalculatorSample;
 
-namespace CalculatorSample.Tests
+namespace VerifyTests
 {
     [TestFixture]
     public class VerifyTests
