@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorSample
 {
@@ -14,22 +10,22 @@ namespace CalculatorSample
 
         public int Add(int a, int b)
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public int Substract(int a, int b)
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public int Multiply(int a, int b)
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public double Divide(int a, int b)
         {
-            return 0;
+            throw new NotImplementedException();
         }
     }
 }

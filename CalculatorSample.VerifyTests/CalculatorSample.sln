@@ -2,6 +2,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorSample.VerifyTests", "CalculatorSample.VerifyTests\CalculatorSample.VerifyTests.csproj", "{5D28DF13-C0CD-4027-B827-670F82B8A9C2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorSample.Tests", "CalculatorSample.Tests\CalculatorSample.Tests.csproj", "{A945D252-4191-4943-9C1C-97D652FC378E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorSample", "CalculatorSample\CalculatorSample.csproj", "{A5CCE9EA-DA4E-4339-8ACE-EB430248B4F3}"
@@ -12,6 +14,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D28DF13-C0CD-4027-B827-670F82B8A9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D28DF13-C0CD-4027-B827-670F82B8A9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D28DF13-C0CD-4027-B827-670F82B8A9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D28DF13-C0CD-4027-B827-670F82B8A9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A945D252-4191-4943-9C1C-97D652FC378E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A945D252-4191-4943-9C1C-97D652FC378E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A945D252-4191-4943-9C1C-97D652FC378E}.Release|Any CPU.ActiveCfg = Release|Any CPU

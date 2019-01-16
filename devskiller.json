@@ -1,9 +1,10 @@
 {
+  "readOnlyFiles" : [ "CalculatorSample.sln" ],
   "verification" : {
     "testNamePatterns" : [".*VerifyTests.*"],
-    "pathPatterns" : ["CalculatorSample.Tests/VerifyTests.cs"],
-        "overwrite" : {
-    	  "CalculatorSample.Tests/CalculatorSample.VerifyTests.csproj" : "CalculatorSample.Tests/CalculatorSample.Tests.csproj"
-        }
+    "pathPatterns" : ["**VerifyTests**"],
+    "overwrite" : {
+		"CalculatorSample.VerifyTests/CalculatorSample.sln" : "CalculatorSample.sln"
+    }
   }
 }
