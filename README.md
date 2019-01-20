@@ -69,7 +69,7 @@ Programming task can be configured with the Devskiller project descriptor file. 
 ```
 You can find more details about devskiller.json descriptor in our [documentation](https://help.devskiller.com/creating-tasks-and-tests/using-custom-programming-tasks/programming-task-project-descriptor)
 
-In example above, by setting `readOnlyFiles` field with a solution file, we make sure candidate won't be able to edit it.
+In example above, by setting `readOnlyFiles` field with a solution file, we make sure candidate won't be able to edit it. **It's important during phase of verification tests execution, don't forget to add it!**
 - `testNamePatterns` - an array of RegEx patterns which should match all the test names of verification tests. Test names should contain: `[namespace_name].[Class_name].[method_name]` . In our sample project, all verification tests are inside VerifyTests  class, so the following pattern will be sufficient:
 ```
 "testNamePatterns"  : [".*VerifyTests.*"]
