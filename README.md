@@ -4,8 +4,8 @@
 **TIP**: Please make sure to read [Getting started with programming tasks](https://help.devskiller.com/creating-tasks-and-tests/getting-started-with-programming-tasks) first.
 
 You can start with our sample project that can be found on GitHub:
-[Open sample project](https://github.com/Devskiller/devskiller-sample-csharp-calculator)
-[Download sample project](https://github.com/Devskiller/devskiller-sample-csharp-calculator/archive/master.zip)
+[Open sample project](https://github.com/maciej-halaczkiewicz/devskiller-sample-csharp-calculator)
+[Download sample project](https://github.com/maciej-halaczkiewicz/devskiller-sample-csharp-calculator/archive/master.zip)
 
 ## Automatic assessment
 It is possible to automatically assess a solution posted by the candidate.
