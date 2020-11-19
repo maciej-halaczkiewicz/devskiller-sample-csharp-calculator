@@ -117,6 +117,17 @@ Solution 'CalculatorSample'
 
 Easiest way to have those two *.sln files is to prepare solution with verification tests, copy it to verification tests folder, than go back to root solution, remove the verification tests project and save it.
 
+### 4. Allowing to create new files in projects.
+
+If you're task is expecting candidates to create new files inside of solution, solution projects should by default include expected files, or all files in their related `*.csproj` files:
+
+```
+  <ItemGroup>
+    <Compile Include="*.cs" />
+  </ItemGroup>
+```
+Web GUI allows candidates to solve problems without downloading/cloning repository and working in their IDE.
+But web GUI has limitations as it's not full IDE replacement. Candidate can create new file in solution directory on appropirate level, but this file won't be aded to `*.csproj` by web IDE, that's why you must take it in consideration, and prepare wildcard as above.
 
 ## Hints
 
